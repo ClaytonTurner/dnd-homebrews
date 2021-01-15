@@ -69,7 +69,7 @@ SpellsList["Detect Life"] = {
 
 };
 
-SpellList["Detect Life - cleric"] = SpellsList["Detect Life"];
+SpellsList["Detect Life - cleric"] = SpellsList["Detect Life"];
 SpellsList["Detect Life - cleric"].name = "Find the gifts of Her Holiness"
 SpellsList["Detect Life - cleric"].classes = ["cleric"]
 
