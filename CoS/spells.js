@@ -52,7 +52,7 @@ SpellsList["claw's crystal aero"] = {
 
 	time : "1 a",
 
-	range : "self (60 ft)",
+	range : "self (60 ft )",
 
 	components : "V,S,M",
 
@@ -62,7 +62,7 @@ SpellsList["claw's crystal aero"] = {
 
 	save : "Dex",
 
-	description : "4d8 slashing or bludgeoning damage. 4d8+1d8/SL lightning damage on failed save.",
+	description : "60ft cone; 4d8 slashing or bludgeoning damage. 4d8+1d8/SL lightning damage on failed save.",
 
 	descriptionFull : "Holding crystals in your hand, your hand starts to channel electricity. The crystals start statically forming into shapes guided by your electricity that are either sharp or blunt in nature. With a deep breath and exhalation you cause statically charged crystals to erupt from your hands in a 60-foot cone. Each creature in this 60-foot cone must make a Dexterity saving throw. Any creature hit by this spell takes 4d8 slashing or bludgeoning damage (spellcaster chooses based on crystal shape). Any creature failing the Dexterity saving throw additionally takes 4d8 lightning damage." + "\n   " +"At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the lightning damage increases by 1d8 for each slot level about 5th.",
 
