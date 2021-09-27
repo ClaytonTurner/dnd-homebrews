@@ -71,3 +71,39 @@ SpellsList["claw's crystal aero"] = {
 	psionic : false,
 
 };
+
+
+SpellsList["dream's weave compression"] = {
+
+	name : "Dream's Weave Compression",
+	nameAlt : "Weave Compression",
+
+	classes : ["sorcerer"],
+
+	source : ["HB", 0],
+
+	level : 5,
+
+	school : "Evoc",
+
+	time : "1 a",
+
+	range : "90 ft",
+
+	components : "V,S,M",
+
+	compMaterial : "Planar shard (500gp)",
+
+	duration : "Instantaneous",
+
+	save : "Str",
+
+	description : "8d8 force damage and knocks creature prone; save for half damage only. Disadv for surge rolls.",
+
+	descriptionFull : "Wielding the power of wild magic and interplanar forces you take control of the magical weave itself for an instant and envelope a creature of your choosing that you can see. A creature targeted by this spell must make a Strength saving throw. A creature takes 8d8 force damage on a failed save, or half as much damage on a successful one. On a failed save the creature also falls prone. This spell can be cast into the ethereal plane from the material plane if the caster has sight (e.g. Truesight). Wild magic surge rolls have disadvantage when preparing to cast this spell.",
+
+	ritual : false,
+
+	psionic : false,
+
+};
