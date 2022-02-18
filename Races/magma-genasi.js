@@ -7,11 +7,11 @@
 
 /*	-INFORMATION-
 	Subject:	Race
-	Effect:		This script adds 2 subraces to the genasi race from Elemental Evil Player's Companion
-				This is taken from the GM Binder website (https://www.gmbinder.com/share/-LfNVTUU2xl9IAZjPDV_)
-				These subraces have been made by Azure876
+	Effect:		This script adds 1 subrace to the genasi race from Elemental Evil Player's Companion
+				This is taken from the GM Binder website (https://www.gmbinder.com/share/-LW8FYMM5sotP5W8WpcR)
+				This subrace was made by CptnCancer
 	Code by:	MorePurpleMoreBetter
-	Date:		2019-07-29 (sheet v13.0.0beta18)
+	Date:		2022-02-02 (sheet v13.0.0beta18)
 */
 
 var iFileName = "Genasi - Magma.js";
