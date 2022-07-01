@@ -34,3 +34,36 @@ SpellsList["the maven's time warp"] = {
     psionic : false,
 
 };
+
+SpellsList["time divergence"] = {
+
+	name : "Time Divergence",
+	nameAlt : "Time Divergence",
+
+	classes : ["sorcerer", "warlock", "wizard", "bard"],
+
+	source : ["HB", 0],
+
+	level : 0,
+
+	school : "Div",
+
+	time : "1 a",
+
+	range : "60 ft",
+
+	components : "V,S",
+
+	duration : "Instantaneous",
+
+	save : "Wis",
+
+	description : "Distract an enemy and impose disadvantage on their first attack roll until your next turn; Wis save",
+
+	descriptionFull : "Choose a creature that you can see within range. The creature is briefly distracted as you force them to experience multiple potential timelines at once. The target must succeed on a Wisdom saving throw or be affected by this spell for the duration. If a creature fails its saving throw, it has disadvantage on the first attack roll it makes before the end of your next turn." + "\n   " + "This spell can target more than one creature when you reach higher levels: two creatures at 5th level, three creatures at 11th level, and four creatures at 17th level.",
+
+	ritual : false,
+
+	psionic : false,
+
+};
