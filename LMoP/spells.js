@@ -1,9 +1,9 @@
 RequiredSheetVersion(12.999);
 
-SpellsList["the maven's time warp"] = {
+SpellsList["the maven's borrowed time"] = {
 
-    name : "The Maven's Time Warp",
-    nameAlt : "Time Warp",
+    name : "The Maven's Borrowed Time",
+    nameAlt : "Borrowed Time",
 
     classes : ["sorcerer", "warlock", "wizard"],
 
