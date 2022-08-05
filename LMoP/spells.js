@@ -67,3 +67,22 @@ SpellsList["time divergence"] = {
 	psionic : false,
 
 };
+
+SpellsList["nature's ladder"] = {
+    name : "Nature's Ladder",
+    nameAlt : "Nature's Ladder",
+    classes : ["druid", "ranger"],
+    source : ["HB", 0],
+    level : 1,
+    school : "Trans",
+    time : "1 a",
+    range : "60 ft",
+    components : "V,S,M",
+    compMaterial : "An acorn",
+    duration : "24 hours",
+    description : "Grow a 1 ft diameter perfect climbing tree up to 20+20/SL ft tall with AC 5 and 25 hit points",
+    descriptionFull : "You cause a tree to sprout from an unoccupied space of solid ground that you can see within range. When you cast the spell, you determine the height of the tree, which can be a maximum of 20 feet tall. If there isn’t enough room for the tree to grow to full height, the tree attains the maximum possible height in the space available. The tree has a 1-foot-diameter trunk and evenly spaced branches perfect for climbing. The tree has AC 5 and 25 hit points. After 24 hours, or if the tree is reduced to 0 hit points, it instantly vanishes."+
+    AtHigherLevels + "When you cast this spell using a spell slot of 2nd level or higher, you can increase the height of the tree by 20 feet for each slot level above 1st.",
+    ritual : false,
+    psionic : false,
+};
