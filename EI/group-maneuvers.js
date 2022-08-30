@@ -13,10 +13,12 @@ ClassList.barbarian.features["group maneuvers"] = {
     name : "Group Maneuver",
     source : ["CT:EI:M", 0],
     minlevel : 1,
-    usages: 2,
+    usages: levels.map(function (n) {
+                return n < 5 ? 2 : n < 9 ? 3 : n < 13 ? 4 : n < 17 ? 5 : 6;
+            }),
     recovery : "long rest",
     description : desc([
-        "As a reaction to a predefined trigger, you may perform a maneuver from the following list, provided the trigger is fulfilled."
+        "As a reaction to a predefined trigger, you may perform a maneuver from the following list, provided the trigger is fulfilled. This may be used a number of times equal to your proficiency bonus per long rest."
     ]),
     extraname : "Group Maneuever",
     extrachoices : ["Reflect Magic", "Whirling Magic"],
