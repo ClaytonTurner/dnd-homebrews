@@ -2,7 +2,7 @@ var iFileName = "weapons.js";
 RequiredSheetVersion(12.999);
 
 SourceList["CT:EI"] = {
-	name : "ClaytonTurner: Ethereal Incursion Weapons",
+	name : "ClaytonTurner: Ethereal Incursion",
 	abbreviation : "CT:EI",
 	date : "2022/08/07"
 }
@@ -11,7 +11,7 @@ SourceList["CT:EI"] = {
 WeaponsList["dragon maul"] = {
 	regExpSearch : /^(?=.*dragon)(?=.*maul).*$/i,
 	name : "Dragon maul",
-	source : ["CT:EI", 0],
+	source : ["CT:EI", 1],
 	list : "melee",
 	ability : 1,  // Strength
 	type : "Martial",
