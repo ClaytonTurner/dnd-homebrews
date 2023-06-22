@@ -1,6 +1,7 @@
 RequiredSheetVersion(12.999);
 
 // OneDnd Updates
+// Level 1 Spells
 SpellsList["compelled duel"].classes.push("cleric");
 SpellsList["divine favor"].classes.push("cleric");
 SpellsList["searing smite"].classes.push("cleric");
@@ -8,6 +9,8 @@ SpellsList["thunderous smite"].classes.push("cleric");
 SpellsList["wrathful smite"].classes.push("cleric");
 SpellsList["branding smite"].classes.push("cleric");
 SpellsList["thunderous smite"].classes.push("cleric");
+// Level 2 Spells
+SpellsList["misty step"].classes.push("cleric")
 
 
 SpellsList["guidance"] = {
@@ -197,3 +200,120 @@ SpellsList["subliminal aversion"] = {
 	psionic : false,
 }
 
+// Level 2 Spells
+SpellsList["fuse armor"] = {
+	name : "Fuse Armor",
+	classes : ["cleric"],
+	source : ["TOH", 306], // TODO: Update this
+	level : 2,
+	school : "Abjur",
+	time : "1 bns",
+	range : "30 ft",
+	components : "V, S",
+	duration : "Conc, 1 min",
+	save : "Con",
+	description : "target metal obj or construct. Objects can't move. Creatures reduce speed by 10ft",
+	descriptionFull : "Choose a manufactured metal object with movable parts, such as a drawbridge pulley or winch or a suit of heavy or medium metal armor, that you can see within range. You cause the object's moveable parts to fuse together for the duration. The object's movable aspects can't be moved: a pulley's wheel won't turn and the joints of armor won't bend. \n A creature wearing armor affected by this spell has its speed reduced by 10 ft and has disadvantage on weapon attacks and ability checks that use Strength or Dexterity. At the end of each of its turns, the creature wearing the armor can make a Strength saving throw. On a success, the spell ends on the armor. \n A creature in physical contact with an affected object that isn't a suit of armor can use its action to make a Strength check against your spell save DC. On a success, the spell ends on the object. \n If you target a construct with this spell, it must succeed on a Strength saving throw or have its speed reduced by 10 ft and have disadvantage on weapon attacks. At the end of each of its turns, the construct can make another Strength saving throw. On a success, the spell ends on the construct \n At Higher Levels. When you cast this spell using a spell slot of 3rd level 0or higher, you can target one additional object for each slot level above 2nd. The objects must be within 30 feet of each other when you target them.",
+	ritual : false,
+	psionic : false,
+}
+
+SpellsList["mantle of the brave"] = {
+	name : "Mantle of the Brave",
+	classes : ["cleric"],
+	source : ["TOH", 306], // TODO: Update this
+	level : 2,
+	school : "Abjur",
+	time : "1 a",
+	range : "Touch",
+	components : "V, S",
+	duration : "1 hour",
+	description : "Target 4 creatures. Adv on next spell/effect which causes frightened.",
+	descriptionFull : "You touch up to four individuals, bolstering their courage. The next time a creature affected by this spell must make a saving throw against a spell or effect that would cause the frightened condition, it has advantage on the roll. Once a creature has received this benefit, the spell ends for that creature.",
+	ritual : false,
+	psionic : false,
+}
+
+SpellsList["portal trap"] = {
+	name : "Portal Trap",
+	classes : ["cleric"],
+	source : ["TOH", 306], // TODO: Update this
+	level : 2,
+	school : "Conj",
+	time : "1 a",
+	range : "60 ft",
+	components : "V",
+	duration : "Conc, 1 min",
+	save : "WIS",
+	description : "5sq ft illusion portal. Wis save if interacted. Fail teleports d8 dir 30ft away.",
+	descriptionFull : "You create a magical portal on a surface in an unoccupied space you can see within range. The portal occupies up to 5 square feet of the surface and is instantly covered with an illusion. The illusion looks like the surrounding terrain or surface features, such as a mortared stone if the portal is placed on a stone wall, or a simple image of your choice like those created by the minor illusion spell. A creature that touches, steps on, or otherwise interacts with or enters the portal must succeed on a Wisdom saving throw or be teleported to an unoccupied space up to 30 feet away in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature can't be teleported into a solid object. \n Physical interaction with the illusion reveals it to be an illusion, but such touching triggers the portal's effect. A creature that uses an action to examine the area where the portal is located can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. \n At Higher Levels. When you cast thsi spell using a spell slot of 3rd level or higher, you can create one additional portal for each slot level above 2nd.",
+	ritual : false,
+	psionic : false,
+}
+
+SpellsList["shadow's brand"] = {
+	name : "Shadow's Brand",
+	classes : ["cleric"],
+	source : ["TOH", 306], // TODO: Update this
+	level : 2,
+	school : "Nec",
+	time : "1 a",
+	range : "Touch",
+	components : "S",
+	duration : "Until Dispelled",
+	save : "CON",
+	description : "Brand creature on failed save. Disadv on ability checks against shadow fey.",
+	descriptionFull : "You draw a rune or inscription no larger than your hand on the target. The target must succeed on a Constitution saving throw or be branded with the mark on a location of your choose. The brand appears as an un\nelligible mark to most creatures. Those who understand the Umbral language recognize it as a mark indicating the target is an enemy of the shadow fey. Shadow fey who view the brand see it outlined in a fa\n glow. The brand can be hidden by mundane means, such as clothing, but it can be removed only by the remove curse spell. / While branded, the target has disadvantage on ability checks when \neracting socially with shadow fey.",
+	ritual : false,
+	psionic : false,
+}
+
+SpellsList["sightburst"] = {
+	name : "Sightburst",
+	classes : ["cleric"],
+	source : ["TOH", 306], // TODO: Update this
+	level : 2,
+	school : "Div",
+	time : "1 a",
+	range : "Self (100-ft radius)",
+	components : "V, S",
+	duration : "1 rnd",
+	description : "Blindsight to a range of 100ft and loc/adv saves related to natural hazards",
+	descriptionFull : "A wave of echoing sound emanates from you. Until the start of your next turn, you have blindsight out to a range of 100 feet, and you know the location of any natural hazards within that area. You have advantage on saving throws made against hazards detected with this spell. / At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the duration is concentration, up to 1 minute. When you use a spell slot of 5th level or higher, the duration is concentration, up to 10 minutes. When you use a spell slot of 7th level or higher, the duration is concentration, up to 1 hour.",
+	ritual : false,
+	psionic : false,
+}
+
+SpellsList["silvershout"] = {
+	name : "Silvershout",
+	classes : ["cleric"],
+	source : ["TOH", 306], // TODO: Update this
+	level : 2,
+	school : "Abjur",
+	time : "1 a",
+	range : "Self (30-ft cone)",
+	components : "V, S, M (ounce of silver powder)",
+	duration : "Inst",
+	save : "CON",
+	description : "On failed save, shapeshifters glow and attacks considered silvered",
+	descriptionFull : "You unleash a shout that coats all creatures in a 30-foot cone in silver dust. If a creature in that area is a shapeshifter, the dust covering it glows. In addition, each creature in the area must make a Constitution saving throw. On a failed save, weapon attacks against that creature are considered to be silvered for the purposes of overcoming resistance and immunity to nonmagical attacks that aren't silvered for 1 minute.",
+	ritual : false,
+	psionic : false,
+}
+
+// Note: This spell is modified from its original text
+SpellsList["threshold slip"] = {
+	name : "Threshold Slip",
+	classes : ["cleric"],
+	source : ["TOH", 306], // TODO: Update this
+	level : 2,
+	school : "Conj",
+	time : "1 bns",
+	range : "Self",
+	components : "V",
+	duration : "Inst",
+	description : "Pass through touching junction to another junction with unoccupied space for travelers within 60ft",
+	descriptionFull : "The threshold of a doorway, the sill of a window, the junction where the floor meets the wall, the intersection of two walls - these are all points of travel for you. When you cast this spell, you can step into the junction of two surfaces, slip through the boundary of the Material Plane, and reappear in an unoccupied space with another junction you can see within 60 feet. \n You can take one willing creature of smaller size that you're touching with you. The target junction must have unoccupied spaces for both of you to enter when you reappear or the spell fails.",
+	ritual : false,
+	psionic : false,
+}
