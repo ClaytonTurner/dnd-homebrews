@@ -1,3 +1,21 @@
+// Reflavor for Tasha's Caustic Brew
+SpellsList["scars of the delver"] = {
+    name : "Scars of the Delver",
+    nameAlt : "Scars of the Delver",
+    classes : ["cleric", "sorcerer"],   
+    source : ["T", 115],
+    level : 1,
+    school : "Evoc",
+    time : "1 a",
+    range : "30-ft line",
+    components : "V,S,M",
+    compMaterial : "A bit of gold dust",
+    duration : "Conc, 1 min",
+    description : "Crea in line save or 2d4+2d4/SL Psychic dmg at start of turn; action remove from self or adjacent crea",
+    descriptionFull : "A stream of gold dust emanates from your external scars in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in mind-ensnaring gold dust for the spell's duration or until a creature uses its action to scrape or wash the gold dust off itself or another creature. A creature covered in the gold dust takes 2d4 psychic damage at start of each of its turns."  + "\n   " + AtHigherLevels + "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d4 for each slot level above 1st."
+};
+
+// PHB 2024 Spells (Not necessary on later versions of MPMB)
 SpellsList["elementalism"] = {
 	name : "Elementalism",
 	classes : ["sorcerer"],
