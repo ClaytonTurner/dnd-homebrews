@@ -1,3 +1,18 @@
+SpellsList["divine knife"] = {
+    name : "Divine Knife",
+    classes : ["sorcerer"],   
+    source : ["HB", 1],
+    level : 0,
+    school : "Conj",
+    time : "1 a",
+    range : "120 ft",
+    components : "S,M",
+    compMaterial : "Sliver of opaque glass",
+    duration : "1 round",
+    description : "Spell attack for 1d10 Piercing dmg; emits 5ft/5ft of light until the start of your next turn",
+    descriptionFull : "You conjure an opaque, glass dagger and hurl it at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. The dagger shed bright light in a 5ft radius and dim light for an additional 5ft until the start of your next turn."  + "\n   " + AtHigherLevels + "This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10)."
+};
+
 // Reflavor for Tasha's Caustic Brew
 SpellsList["scars of the delver"] = {
     name : "Scars of the Delver",
@@ -8,7 +23,7 @@ SpellsList["scars of the delver"] = {
     school : "Evoc",
     time : "1 a",
     range : "30-ft line",
-    components : "V,S,M",
+    components : "S,M",
     compMaterial : "A bit of gold dust",
     duration : "Conc, 1 min",
     description : "Crea in line save or 2d4+2d4/SL Psychic dmg at start of turn; action remove from self or adjacent crea",
